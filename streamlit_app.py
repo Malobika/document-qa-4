@@ -422,11 +422,6 @@ def hw4_run():
 
 
 
-pg = st.navigation(
-    {
-        "HW4": st.Page(hw4_run, title="HW4"),
-    }
-)
-
+pg = st.navigation([st.Page(hw4_run, title="HW4")])
 pg.run()
         
